@@ -14,6 +14,10 @@
         android:orderInCategory="3"
         android:title="delete">
     </item>
+    <item
+        android:id="@+id/menu_forum"
+        android:title="forum">
+    </item>
     <group
         android:id="@+id/group1">
         <item
@@ -30,6 +34,11 @@
             android:id="@+id/menu_exit"
             android:orderInCategory="4"
             android:title="exit">
+        </item>
+        <item
+            android:id="@+id/menu_translate"
+            android:title="translate">
+
         </item>
     </group>
 </menu>

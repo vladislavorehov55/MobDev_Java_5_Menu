@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onPrepareOptionsMenu(Menu menu) {
         // TODO Auto-generated method stub
         // пункты меню с ID группы = 1 видны, если в CheckBox стоит галка
-        menu.setGroupVisible(1, chb.isChecked());
+        menu.setGroupVisible(R.id.group1, chb.isChecked());
         return super.onPrepareOptionsMenu(menu);
     }
 

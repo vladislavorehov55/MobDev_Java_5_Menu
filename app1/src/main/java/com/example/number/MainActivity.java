@@ -15,9 +15,8 @@ public class MainActivity extends AppCompatActivity {
     TextView tvInfo;
     EditText etInput;
     Button bControl;
-    //int max_value = 100;
+    int max_value = 100;
     int min_value = 1;
-    int max_value = 5;
     int value_gen;
     Dialog dialog;
     TextView text;
